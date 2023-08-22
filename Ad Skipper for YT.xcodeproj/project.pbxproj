@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5032395F2A95755700813F9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5032395E2A95755700813F9F /* AppDelegate.swift */; };
+		503239632A95755700813F9F /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 503239612A95755700813F9F /* Main.html */; };
+		503239652A95755700813F9F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 503239642A95755700813F9F /* Icon.png */; };
+		503239672A95755700813F9F /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 503239662A95755700813F9F /* Style.css */; };
+		503239692A95755700813F9F /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 503239682A95755700813F9F /* Script.js */; };
+		5032396B2A95755700813F9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5032396A2A95755700813F9F /* ViewController.swift */; };
+		5032396E2A95755700813F9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5032396C2A95755700813F9F /* Main.storyboard */; };
+		503239702A95755800813F9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5032396F2A95755800813F9F /* Assets.xcassets */; };
+		503239782A95755800813F9F /* Ad Skipper for YT Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 503239772A95755800813F9F /* Ad Skipper for YT Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5032397D2A95755800813F9F /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5032397C2A95755800813F9F /* SafariWebExtensionHandler.swift */; };
+		503239802A95755800813F9F /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 5032397F2A95755800813F9F /* _locales */; };
+		503239822A95755800813F9F /* images in Resources */ = {isa = PBXBuildFile; fileRef = 503239812A95755800813F9F /* images */; };
+		503239842A95755800813F9F /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 503239832A95755800813F9F /* manifest.json */; };
+		503239862A95755800813F9F /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 503239852A95755800813F9F /* background.js */; };
+		503239882A95755800813F9F /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 503239872A95755800813F9F /* content.js */; };
+		5032398A2A95755800813F9F /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 503239892A95755800813F9F /* popup.html */; };
+		5032398C2A95755800813F9F /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 5032398B2A95755800813F9F /* popup.css */; };
+		5032398E2A95755800813F9F /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 5032398D2A95755800813F9F /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		503239792A95755800813F9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 503239532A95755700813F9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 503239762A95755800813F9F;
+			remoteInfo = "Ad Skipper for YT Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		503239962A95755800813F9F /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				503239782A95755800813F9F /* Ad Skipper for YT Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5032395B2A95755700813F9F /* Ad Skipper for YT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ad Skipper for YT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5032395E2A95755700813F9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		503239622A95755700813F9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		503239642A95755700813F9F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		503239662A95755700813F9F /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		503239682A95755700813F9F /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		5032396A2A95755700813F9F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5032396D2A95755700813F9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5032396F2A95755800813F9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		503239712A95755800813F9F /* Ad_Skipper_for_YT.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Ad_Skipper_for_YT.entitlements; sourceTree = "<group>"; };
+		503239722A95755800813F9F /* Ad Skipper for YT.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Ad Skipper for YT.entitlements"; sourceTree = "<group>"; };
+		503239772A95755800813F9F /* Ad Skipper for YT Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Ad Skipper for YT Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5032397C2A95755800813F9F /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		5032397F2A95755800813F9F /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		503239812A95755800813F9F /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		503239832A95755800813F9F /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		503239852A95755800813F9F /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		503239872A95755800813F9F /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		503239892A95755800813F9F /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		5032398B2A95755800813F9F /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		5032398D2A95755800813F9F /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		5032398F2A95755800813F9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		503239902A95755800813F9F /* Ad_Skipper_for_YT_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Ad_Skipper_for_YT_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		503239582A95755700813F9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		503239742A95755800813F9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		503239522A95755700813F9F = {
+			isa = PBXGroup;
+			children = (
+				5032395D2A95755700813F9F /* Ad Skipper for YT */,
+				5032397B2A95755800813F9F /* Ad Skipper for YT Extension */,
+				5032395C2A95755700813F9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5032395C2A95755700813F9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5032395B2A95755700813F9F /* Ad Skipper for YT.app */,
+				503239772A95755800813F9F /* Ad Skipper for YT Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5032395D2A95755700813F9F /* Ad Skipper for YT */ = {
+			isa = PBXGroup;
+			children = (
+				5032395E2A95755700813F9F /* AppDelegate.swift */,
+				5032396A2A95755700813F9F /* ViewController.swift */,
+				5032396C2A95755700813F9F /* Main.storyboard */,
+				5032396F2A95755800813F9F /* Assets.xcassets */,
+				503239712A95755800813F9F /* Ad_Skipper_for_YT.entitlements */,
+				503239722A95755800813F9F /* Ad Skipper for YT.entitlements */,
+				503239602A95755700813F9F /* Resources */,
+			);
+			path = "Ad Skipper for YT";
+			sourceTree = "<group>";
+		};
+		503239602A95755700813F9F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				503239612A95755700813F9F /* Main.html */,
+				503239642A95755700813F9F /* Icon.png */,
+				503239662A95755700813F9F /* Style.css */,
+				503239682A95755700813F9F /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5032397B2A95755800813F9F /* Ad Skipper for YT Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5032397C2A95755800813F9F /* SafariWebExtensionHandler.swift */,
+				5032398F2A95755800813F9F /* Info.plist */,
+				503239902A95755800813F9F /* Ad_Skipper_for_YT_Extension.entitlements */,
+				5032397E2A95755800813F9F /* Resources */,
+			);
+			path = "Ad Skipper for YT Extension";
+			sourceTree = "<group>";
+		};
+		5032397E2A95755800813F9F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5032397F2A95755800813F9F /* _locales */,
+				503239812A95755800813F9F /* images */,
+				503239832A95755800813F9F /* manifest.json */,
+				503239852A95755800813F9F /* background.js */,
+				503239872A95755800813F9F /* content.js */,
+				503239892A95755800813F9F /* popup.html */,
+				5032398B2A95755800813F9F /* popup.css */,
+				5032398D2A95755800813F9F /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5032395A2A95755700813F9F /* Ad Skipper for YT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 503239972A95755800813F9F /* Build configuration list for PBXNativeTarget "Ad Skipper for YT" */;
+			buildPhases = (
+				503239572A95755700813F9F /* Sources */,
+				503239582A95755700813F9F /* Frameworks */,
+				503239592A95755700813F9F /* Resources */,
+				503239962A95755800813F9F /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5032397A2A95755800813F9F /* PBXTargetDependency */,
+			);
+			name = "Ad Skipper for YT";
+			productName = "Ad Skipper for YT";
+			productReference = 5032395B2A95755700813F9F /* Ad Skipper for YT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		503239762A95755800813F9F /* Ad Skipper for YT Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 503239932A95755800813F9F /* Build configuration list for PBXNativeTarget "Ad Skipper for YT Extension" */;
+			buildPhases = (
+				503239732A95755800813F9F /* Sources */,
+				503239742A95755800813F9F /* Frameworks */,
+				503239752A95755800813F9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ad Skipper for YT Extension";
+			productName = "Ad Skipper for YT Extension";
+			productReference = 503239772A95755800813F9F /* Ad Skipper for YT Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		503239532A95755700813F9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					5032395A2A95755700813F9F = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					503239762A95755800813F9F = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 503239562A95755700813F9F /* Build configuration list for PBXProject "Ad Skipper for YT" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 503239522A95755700813F9F;
+			productRefGroup = 5032395C2A95755700813F9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5032395A2A95755700813F9F /* Ad Skipper for YT */,
+				503239762A95755800813F9F /* Ad Skipper for YT Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		503239592A95755700813F9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				503239652A95755700813F9F /* Icon.png in Resources */,
+				5032396E2A95755700813F9F /* Main.storyboard in Resources */,
+				503239692A95755700813F9F /* Script.js in Resources */,
+				503239632A95755700813F9F /* Main.html in Resources */,
+				503239702A95755800813F9F /* Assets.xcassets in Resources */,
+				503239672A95755700813F9F /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		503239752A95755800813F9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				503239862A95755800813F9F /* background.js in Resources */,
+				5032398C2A95755800813F9F /* popup.css in Resources */,
+				5032398A2A95755800813F9F /* popup.html in Resources */,
+				503239822A95755800813F9F /* images in Resources */,
+				503239842A95755800813F9F /* manifest.json in Resources */,
+				503239802A95755800813F9F /* _locales in Resources */,
+				503239882A95755800813F9F /* content.js in Resources */,
+				5032398E2A95755800813F9F /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		503239572A95755700813F9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5032396B2A95755700813F9F /* ViewController.swift in Sources */,
+				5032395F2A95755700813F9F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		503239732A95755800813F9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5032397D2A95755800813F9F /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5032397A2A95755800813F9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 503239762A95755800813F9F /* Ad Skipper for YT Extension */;
+			targetProxy = 503239792A95755800813F9F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		503239612A95755700813F9F /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				503239622A95755700813F9F /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		5032396C2A95755700813F9F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5032396D2A95755700813F9F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		503239912A95755800813F9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		503239922A95755800813F9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		503239942A95755800813F9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Ad Skipper for YT Extension/Ad_Skipper_for_YT_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JR52ERM3LK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ad Skipper for YT Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Ad Skipper for YT Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "filip.Ad-Skipper-for-YT.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		503239952A95755800813F9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Ad Skipper for YT Extension/Ad_Skipper_for_YT_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JR52ERM3LK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ad Skipper for YT Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Ad Skipper for YT Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "filip.Ad-Skipper-for-YT.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		503239982A95755800813F9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Ad Skipper for YT/Ad Skipper for YT.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JR52ERM3LK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Ad Skipper for YT";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "filip.Ad-Skipper-for-YT";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		503239992A95755800813F9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Ad Skipper for YT/Ad Skipper for YT.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JR52ERM3LK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Ad Skipper for YT";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "filip.Ad-Skipper-for-YT";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		503239562A95755700813F9F /* Build configuration list for PBXProject "Ad Skipper for YT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				503239912A95755800813F9F /* Debug */,
+				503239922A95755800813F9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		503239932A95755800813F9F /* Build configuration list for PBXNativeTarget "Ad Skipper for YT Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				503239942A95755800813F9F /* Debug */,
+				503239952A95755800813F9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		503239972A95755800813F9F /* Build configuration list for PBXNativeTarget "Ad Skipper for YT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				503239982A95755800813F9F /* Debug */,
+				503239992A95755800813F9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 503239532A95755700813F9F /* Project object */;
+}
